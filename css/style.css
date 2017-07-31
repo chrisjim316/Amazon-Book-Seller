@@ -22,7 +22,7 @@ footer {
   color: white;
   border-style: solid;
   border-width: medium;
-  border-color: blue;
+  border-radius: 50px;
 }
 
 .books {
