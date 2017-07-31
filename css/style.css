@@ -12,7 +12,6 @@ footer {
   left: 0;
   padding: 1rem;
   text-align: center;
-  color: white;
 }
 
 .titlePage {
@@ -34,6 +33,15 @@ footer {
   width: 200px;
 }
 
+#bookTitle {
+  font-size: 2.8em;
+  cursor: pointer;
+}
+
+.bookDescription {
+  font-size: 1.4em;
+  text-align: left;
+}
 
 /*mobile screens */
 @media (max-width: 800px) and (min-width: 300px) {
