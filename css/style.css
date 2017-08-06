@@ -163,11 +163,11 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   .price {
     padding-right: 0;
-    font-size: 7vw;
+    font-size: 6vw;
     display: block;
   }
   .condition {
-    font-size: 7vw;
+    font-size: 6vw;
     display: block;
   }
 }
