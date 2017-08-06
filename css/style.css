@@ -155,4 +155,17 @@ background scroll effects only work in desktop versions with larger   screen siz
     background: url("https://github.com/chrisjim316/AmazonSeller-LilJimbo/blob/master/Images/marbleBG-mobile.jpg?raw=true");
     background-size: contain; 
   }
+  #bookTitle {
+    font-size: 8vw;
+  }
+  .bookDescription {
+    font-size: 3vw;
+  }
+  .price {
+    padding-right: 5px;
+    font-size: 7vw;
+  }
+  .condition {
+    font-size: 7vw;
+  }
 }
