@@ -1,82 +1,355 @@
 <header>
+  <!-- import bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
   <!-- importing font awesome icons --> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- import Athiti font from google fonts -->  
   <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
-  <!-- linking bootstrap to index.html-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
   <!--link css and js files -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script
   <!-- import jQuery --> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </header>
 
-<html><body><div class="container-fluid">
+<body>
 <section class="titlePage">
-  <h1 style="font-size:4em;"> &#64;Liljimbo &trade; - New books, used books, at an insanely low price! </h1>
+  <div id="overlay">
+    <div class="title">
+      <h1>&#64;LILJIMBO &trade;</h1>
+      <h2> New books, used books, at insanely low prices! </h2>
+    </div>
+  </div>
 </section>
+ 
 
-<!-- search through my library based on book title-->    
-<form><input type="search" placeholder="Search for books"></form>
-  
-<section class="books">
-  <h2> Click book titles for details* </h2>
+<!-- books page -->  
+<section class="books mainBG">
+  <!-- search through my library based on book title-->    
+  <form><input type="search" placeholder="Search for books"></form>
+  <h2> Click book titles for details* </h2
+    
   <div class="row">
-    <div class="col-md-3 well">
-      <a class="thumbnail" href="" target="_blank"><img src="https://github.com/iam-chrisjim/Images/blob/master/AmazonSeller/The%20Story%20of%20Rumpelstiltskin.jpg?raw=true" class="project-img"></a>
-      <h3 id="bookTitle" data-toggle="collapse" data-target="#sample1"><strong>The Story of Rumpelstiltskin</strong></h3>
-      <div id="sample1" class="collapse bookDescription">
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://github.com/iam-chrisjim/Images/blob/master/AmazonSeller/The%20Story%20of%20Rumpelstiltskin.jpg?raw=true" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#1"><strong>The Story of Rumpelstiltskin</strong></h3>
+      <h3 class="price"><strong>Price: £2.99</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="1" class="collapse bookDescription">
         <p> By Heather Amery (Author), Stephen Cartwright (Illustrator) </p>
         <p> This delightful picture book version of the traditional story of Rumpelstiltskin has been specially written for children who are just beginning to read. Stephen Cartwright's charming illustrations will inspire young readers as well as giving clues to the words and their meaning. This is an Accelerated Reader title. Accelerated Reader (AR) is the world's most popular reading management software. Used in nearly 60,000 schools, Accelerated Reader provides teachers with an easy and effective way to monitor all forms of guided reading practice. 16 pages. </p>
-        <p> Price: £2.99 </p>
       </div>
     </div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41WzEeLQ6hL._SX398_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#2"><strong>Three Little Pigs</strong></h3>
+      <h3 class="price"><strong>Price: £1.49</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="2" class="collapse bookDescription">
+        <p> By Heather Amery (Author), Stephen Cartwright (Illustrator) </p>
+        <p> These are six gorgeous additions to the new "Usborne Sticker Stories" series, which combine a storybook, sticker book and puzzle book in one. Each title takes as its subject a traditional fairytale that is retold for young children in amusing and utterly captivating fashion. They are illustrated with inimitable flair by Stephen Cartwright, one of Usborne's most popular artists who also illustrated the phenomenally successful "Farmyard" Tales series. Each book contains over fifty stickers that can be used throughout the story to replace key words and help young children build their vocabulary.</p>
+      </div>
+    </div>
+      
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/513X3BNS3TL._SX466_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#3"><strong>Night-time</strong></h3>
+      <h3 class="price"><strong>Price: £3.59</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="3" class="collapse bookDescription">
+        <p> by Alastair Smith (Author), John Butler (Illustrator) </p>
+        <p> As they lift the flaps in this beautiful book, children will see what animals do while people are asleep. Cats prowl, mice scuttle, owls swoop, and bats flutter across the pages, capturing the night-time atmosphere in different environments from backyard to rainforest.</p>
+      </div>  
+    </div>
+      
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/81b6lSIogmL.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#4"><strong>The Usborne Book of Fairy Tales</strong></h3>
+      <h3 class="price"><strong>Price: £1.89</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="4" class="collapse bookDescription">
+        <p> by Heather Amery  (Author), S. Cartwright (Illustrator) </p>
+        <p> Charming picture book of six classic fairy tales (Cinderella, The Story of Rumpelstiltskin, Little Red Riding Hood, Sleeping Beauty, Goldilocks and the Three Bears & Three Little Pigs). Dual-level text, on each page a simple line for beginner readers and a more complex one which can be read aloud by an adult or reading child. Age 2+</p>
+      </div>
+    </div>
   </div>
   <div class="row">
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/91joL%2B3rTML.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#5"><strong>Disney's Atlantis: The Lost Empire</strong></h3>
+      <h3 class="price"><strong>Price: £1.35</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="5" class="collapse bookDescription">
+        <p> Publisher: Grolier Books (January 1, 2001) </p>
+        <p> Marvelous tale retold from H.G.W. inspiration. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51BnZ7B-n0L._SY498_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#6"><strong>Topsy And Tim Learn To Swim</strong></h3>
+      <h3 class="price"><strong>Price: £2.05</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="6" class="collapse bookDescription">
+        <p> by Ladybird (Author) </p>
+        <p> Topsy and Tim are always finding fun adventures in the real world, and this story is reassuring for young children having first experiences of their own. Going to the swimming pool for the first time can be daunting but Topsy and Tim are having fun! Follow the twins on their adventures as they have lessons, learn to swim without their armbands and take part in a swimming competition. A trusted and well-loved pair who can help guide parents and children through 'first experiences', Topsy and Tim books have been beautifully updated with contemporary artwork. Topsy & Tim remain instantly recognisable to parents while in a fresh style that will appeal to a new generation of fans. Re-launching in April 2008 with the bestselling titles Learning to Swim, The New Baby, Start School, Go on an Aeroplane, Go Green and Have a Birthday Party these wonderful books deserve a place on the bookshelves of the next generation. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/512X8K613DL._SX395_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#7"><strong>This Is the Bear</strong></h3>
+      <h3 class="price"><strong>Price: £2.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="7" class="collapse bookDescription">
+        <p> by Sarah Hayes (Author), Helen Craig (Illustrator) </p>
+        <p> The boy, the bear and the dog are the best of friends. But one day the bear gets lost and has to be searched for high and low. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51G-yE3sa8L._SX382_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#8"><strong>Topsy And Tim Learn To Swim</strong></h3>
+      <h3 class="price"><strong>Price: £2.55</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="8" class="collapse bookDescription">
+        <p> by Shirley Hughes  (Author, Illustrator) </p>
+        <p> When Dave loses his favorite toy, Dogger, he is very sad. But when Dogger turns up for sale at the neighborhood fair, everything seems all right—until someone else buys him before Dave can get the money! Filled with humor and Shirley Hughes’s artful touch, this is a book for young readers to tackle by themselves, as well as a delight to read aloud. </p>
+      </div>
+    </div>
   </div>
   <div class="row">
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51SutSh6-IL._SX464_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#9"><strong>Panda's Valentine's Day</strong></h3>
+      <h3 class="price"><strong>Price: £1.29</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="9" class="collapse bookDescription">
+        <p> by Tara Jaye Morrow (Author), Aaron Boyd (Illustrator) </p>
+        <p> For Panda, Valentine's Day means making the best card ever for his Mama-one that's pretty and fun and with lots of love inside, just like her. But nothing he does works out quite right: the heart's uneven, the red ribbon tears, and the beads won't glue. Then Mama shows him: it's the love you share that really makes a card-and Valentine's Day-special. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51rPt4cf6jL._SX390_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#10"><strong>Pirates of the Caribbean: At World's End Story Book And CD</strong></h3>
+      <h3 class="price"><strong>Price: £3.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="10" class="collapse bookDescription">
+        <p> by Disney Book Group (Author) </p>
+        <p> Pirates everywhere are in danger as the East India Trading Company sets the ruthless Davy Jones on them. Captain Jack Sparrow, Elizabeth Swann, Will Turner, and the rest of the Pirates of the Caribbean crew must unite all of the Seven Seas' pirates to make one last stand...or lose their way of life forever. Featuring dialogue and sound effects straight from the film, this storybook and CD lets readers relive the action and excitement of Pirates of the Caribbean: At World's End. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51hyc6ufZ6L._SX343_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#11"><strong>High School Musical: The Junior Novel</strong></h3>
+      <h3 class="price"><strong>Price: £2.55</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="11" class="collapse bookDescription">
+        <p> by N. B. Grace  (Author) </p>
+        <p> Until Troy met Gabriella, his big dream was to win the basketball championship. But ever since they sang karaoke together on New Years Eve, Troy cant get his mind off trying out for the lead role in the school musicalwith Gabriella as his partner! Gabriella is struggling too. The Scholastic Decathlon team could really use her help, but it would be fun to sing with Troy again. All their friends say its a bad idea and that Troy and Gabriella should stick to the status quo. In their hearts, Troy and Gabriella know theyve got the talent to play the lead roles in the musical, so why is everyone standing in their way? Will Troy and Gabriella follow their dreams of being on the stage? Or will they have to give it all up so that they can lead their teams to victory? </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61zcD9LaDfL._SX334_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#12"><strong>Power Rangers: The Official Movie Novel</strong></h3>
+      <h3 class="price"><strong>Price: £1.95</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="12" class="collapse bookDescription">
+        <p> by Alexander Irvine (Author) </p>
+        <p> They're back and more powerful than ever. The classic '90s superhero team gets a massive reboot in a highly anticipated motion picture release. This movie tie-in novel tells the story of five unlikely teens tasked with saving the world from alien forces. Told in thrilling detail with exclusive content, this novel keeps movie fans rooted in the action long after the credits roll. </p>
+      </div>
+    </div>
   </div>
   <div class="row">
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51bLnbNy15L._SX300_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#13"><strong>The Giver</strong></h3>
+      <h3 class="price"><strong>Price: £5.35</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="13" class="collapse bookDescription">
+        <p> By Lois Lowry (Author) </p>
+        <p> "The Giver is a 1993 American Young-adult fiction-Dystopian novel by Lois Lowry. It is set in a society which at first appears as a utopian society but then later revealed to be a dystopian one as the story progresses." (Wikipedia) </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61FbXZT3CBL._SX334_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#14"><strong>Hatchet</strong></h3>
+      <h3 class="price"><strong>Price: £2.35</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="14" class="collapse bookDescription">
+        <p> Bby Gary Paulsen  (Author) </p>
+        <p> This award-winning contemporary classic is the survival story with which all others are compared—and a page-turning, heart-stopping adventure, recipient of the Newbery Honor. Thirteen-year-old Brian Robeson is on his way to visit his father when the single-engine plane in which he is flying crashes. Suddenly, Brian finds himself alone in the Canadian wilderness with nothing but a tattered Windbreaker and the hatchet his mother gave him as a present—and the dreadful secret that has been tearing him apart since his parent’s divorce. But now Brian has no time for anger, self pity, or despair—it will take all his know-how and determination, and more courage than he knew he possessed, to survive. </p>
+      </div>
+    </div>
+      
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51Sl3PeqaSL.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#15"><strong>Hooper Finds a Family: A Hurricane Katrina Dog's Survival Tale</strong></h3>
+      <h3 class="price"><strong>Price: £1.35</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="15" class="collapse bookDescription">
+        <p> by Jane Paley  (Author) </p>
+        <p> Here comes Hooper, one plucky, spunky dog whose warm spirit and goofy personality are irresistible. Hooper tells his own dramatic rescue tale after being left homeless in the wake of Hurricane Katrina and taking a daring trip from New Orleans to New York to meet his new family. He tells of the terrifying force of Katrina, his trials in the shelter, and being the new dog on the block in a city far from home. As Hooper struggles to find his place, he learns to overcome his fear of water and faces down feisty squirrels as well as the resident bully and top dog in his new neighborhood. In a moving tale of adventure and triumph based on a true story, meet this tenacious puppy who makes an incredible journey in search of home. </p>
+      </div>
+    </div>
+     
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61YzD2rBeUL._SX412_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#16"><strong>Walt Disney's Peter Pan (Disney Peter Pan)</strong></h3>
+      <h3 class="price"><strong>Price: £0.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="16" class="collapse bookDescription">
+        <p> by RH Disney (Author), Al Dempster (Illustrator) </p>
+        <p> Peter Pan and his fairy friend Tinker Bell are back in this vintage Little Golden Book! Featuring gorgeous illustrations from 1952, this children's classic is being reissued just in time for the release of Walt Disney's Peter Pan Platinum Edition DVD. </p>
+      </div>
+    </div>
   </div>
   <div class="row">
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51gYvYhU65L.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#17"><strong>Alexander the Great</strong></h3>
+      <h3 class="price"><strong>Price: £9.59</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="17" class="collapse bookDescription">
+        <p> Author: Jane Bingham </p>
+        <p> Publisher: Usborne Publishing Ltd (August 27, 2004) Language: English </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51-o4EL46gL._SX383_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#18"><strong>Knights and Castles (Usborne Time Traveler)</strong></h3>
+      <h3 class="price"><strong>Price: £2.69</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="18" class="collapse bookDescription">
+        <p> by Judy Hindley  (Author), Philippa Wingate (Editor) </p>
+        <p> Take a journey back in time to the year 1240 to meet Baron Godfrey and his family, knights and servants. Watch a cathedral being built, see how a squire becomes a knight and read the adventures of soldiers returning from a Crusade. Lively text and cartoon-style artwork bring the characters to life and show what it was really like to live in medieval times. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/5129KPKTDAL._SX336_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#19"><strong>Knights of King Arthur (Usborne Fantasy Adventure)</strong></h3>
+      <h3 class="price"><strong>Price: £0.89</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="19" class="collapse bookDescription">
+        <p> by Andy Dixon (Author) </p>
+        <p> The King Arthur legend is brought to life in this illustrated interactive fantasy which offers readers the chance to become a Knight of the Round Table. Each scene has mysteries to solve and visual clues to help the reader on their quest.' </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51k2v32bEQL._SX332_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#20"><strong>Pompeii (Young Reading (Series 3))</strong></h3>
+      <h3 class="price"><strong>Price: £0.99</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="20" class="collapse bookDescription">
+        <p> by Anna Claybourne (Author) </p>
+        <p> Hardcover: 64 pages Publisher: Usborne Publishing Ltd (2006) Language: English</p>
+      </div>
+    </div>
   </div>
   <div class="row">
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/515-xylhDtL._SX298_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#21"><strong>My Best Book of Pirates</strong></h3>
+      <h3 class="price"><strong>Price: £6.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="21" class="collapse bookDescription">
+        <p> Publisher: KINGFISHER BOOKS </p>
+        <p> Stunning artwork depicts the lives and daredevil raids of famous pirates such as Blackbeard, Madame Cheng, and Captain Kidd, while clever cutaways and authoritative text reveal the day-to-day life on board their ships. This is the perfect book for young swashbucklers!</p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/515RpW8maTL._SX323_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#22"><strong>3-D Thrillers: The Ice Age and Incredible Pre-Historic Animals </strong></h3>
+      <h3 class="price"><strong>Price: £2.39</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="22" class="collapse bookDescription">
+        <p> by Arcturus Publishing (Author), Mr. Paul Harrison (Author), Lisa Miles (Author) </p>
+        <p> Slip on the 3-D glasses and prepare yourself to see things like never before! 3-D Thrillers are packed with facts that kids want to know about some of their favorite creatures, along with amazing images that leap right off the page!</p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51j1YazZfiL._SX301_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#23"><strong>The Golden Compass: Lyra's World Reader (Level 3) </strong></h3>
+      <h3 class="price"><strong>Price: £0.99</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="23" class="collapse bookDescription">
+        <p> by Ms. Kay Woodward (Author) </p>
+        <p> There are worlds beyond our own--the Compass will show the way . . . Created especially with younger readers in mind, this book will use simple words and basic sentence structure to introduce the characters of the story.</p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/510VwVSZNOL._SX393_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#24"><strong>The Magic Sky </strong></h3>
+      <h3 class="price"><strong>Price: £3.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="24" class="collapse bookDescription">
+        <p> by Lucy Richards  (Author, Illustrator) </p>
+        <p> One night at bedtime, Rory's mother tells him all about the "magic sky." The little polar bear is so excited to see it. But how long will he have to wait? The magic sky that Rory sees is a real phenomenon. It is called the Aurora Borealis or Northern Lights and can be seen in the Arctic and far northern hemisphere. The dazzling lights appear to move across the sky like natural fireworks. As they turn the pages of The Magic Sky, children will delight in the loveable polar bears and marvel at the glittering rainbow colors of the Arctic light show. </p>
+      </div>
+    </div>
   </div>
   <div class="row">
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
-    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a></div>
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51qGZ68xTjL._SX364_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#25"><strong>See Inside Castles (Usborne See Inside) </strong></h3>
+      <h3 class="price"><strong>Price: £8.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="25" class="collapse bookDescription">
+        <p> by Katie Daynes  (Author), David Hancock (Illustrator) </p>
+        <p> A fantastic new flap book, which takes a humorous yet historically accurate look at life in a Thirteenth Century medieval castle. Inventive embedded flaps on each double-page spread allow children to explore the hidden world of the castle, peeking inside stables, tents, and carriages along the way. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51D4QjOsZkL._SX326_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#26"><strong>Ancient Greece: From Prehistoric to Hellenistic Times, Second Edition 2nd Edition </strong></h3>
+      <h3 class="price"><strong>Price: £12.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="26" class="collapse bookDescription">
+        <p> by Thomas R. Martin  (Author) </p>
+        <p> In this compact yet comprehensive history of ancient Greece, Thomas R. Martin brings alive Greek civilization from its Stone Age roots to the fourth century B.C. Focusing on the development of the Greek city-state and the society, culture, and architecture of Athens in its Golden Age, Martin integrates political, military, social, and cultural history in a book that will appeal to students and general readers alike. Now in its second edition, this classic work now features new maps and illustrations, a new introduction, and updates throughout. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/515t0ObpSJL._SY498_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#27"><strong>Baby Touch and Feel: Animals </strong></h3>
+      <h3 class="price"><strong>Price: £2.69</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="27" class="collapse bookDescription">
+        <p> by DK (Author) </p>
+        <p> A small touch and feel book full of cuddly bunnies and other soft animals, this is a gift your little one is sure to adore. This USA Today bestselling board book encourages tiny fingers to explore and develop fine motor skills while building an early language foundation. Babies will meet adorable puppies, kittens, penguins, and other animals throughout the pages of the book. Filled with real-life animal photographs featuring touch-and-feel textures that help children develop their knowledge while increasing their use of senses, Baby Touch and Feel: Animals is the perfect size for small hands. Its padded cover can withstand biting and throwing while its thick sturdy board pages won't tear. Your baby can practice animal recognition and perfect animal noises while touching the novelty textures on the pages. With more than one million copies sold, Baby Touch and Feel: Animals is the perfect book for your child's bookshelf. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/611H3KWlBGL._SX399_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#28"><strong>Merriam-Webster Children's Dictionary </strong></h3>
+      <h3 class="price"><strong>Price: £8.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="28" class="collapse bookDescription">
+        <p> by DK (Author) </p>
+        <p> This top-selling dictionary featuring 35,000 updated words, phrases, images, and authoritative content from Merriam-Webster is a must-have resource for elementary school children. This new edition of DK's Merriam-Webster Children's Dictionary has a fresh design with color-coded page borders for each letter of the alphabet, and modern photographs and illustrations that give a lively, accessible look at the entries. Each entry is fully explained with its definition, usage, examples, and notes on spelling and punctuation. Word senses have been refreshed to reflect modern usage, and maps and country statistics have been updated to include new countries, cities, borders, and flags. Merriam-Webster Children's Dictionary is an excellent visual reference resource for kids to have on-hand as they work through school assignments and learn important research skills. </p>
+      </div>
+    </div>
   </div>
+  <div class="row">
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/511wR3fmwWL._SX356_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#29"><strong>We the Children (Benjamin Pratt and the Keepers of the School) </strong></h3>
+      <h3 class="price"><strong>Price: £2.99</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="29" class="collapse bookDescription">
+        <p> by Andrew Clements (Author) </p>
+        <p> Benjamin Pratt’s school is about to become the site of a new amusement park. It sounds like a dream come true! But lately, Ben has been wondering if he’s going to like an amusement park in the middle of his town—with all the buses and traffic and eight dollar slices of pizza. It’s going to change everything.  </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51JpjVhtXsL._SY346_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#30"><strong>The Field Guide (The Spiderwick Chronicles Book 1) </strong></h3>
+      <h3 class="price"><strong>Price: £4.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="30" class="collapse bookDescription">
+        <p> by Holly Black  (Author), Tony DiTerlizzi  (Author, Illustrator) </p>
+        <p> After finding a mysterious, handmade field guide in the attic of the ramshackle old mansion they’ve just moved into, Jared; his twin brother, Simon; and their older sister, Mallory, discover that there’s a magical and maybe dangerous world existing parallel to our own—the world of faerie. The Grace children want to share their story, but the faeries will do everything possible to stop them... </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61-iHiPxSrL._SX410_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#31"><strong>Walt Disney's Alice in Wonderland (Little Golden Books)  </strong></h3>
+      <h3 class="price"><strong>Price: £1.99</strong></h3><h3 class="condition"><strong>Condition: Used</strong></h3>
+      <div id="31" class="collapse bookDescription">
+        <p> by RH Disney (Author, Illustrator) </p>
+        <p> Based on Walt Disney's animated classic, this vintage Little Golden Book from 1951 retells the story of Alice’s wild adventures in Wonderland. </p>
+      </div>
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51E5pc-taNL._SX413_BO1,204,203,200_.jpg" class="project-img"></a>
+      <h3 id="bookTitle" data-toggle="collapse" data-target="#32"><strong>Snow White and the Seven Dwarfs (Disney Princess) (Little Golden Book) </strong></h3>
+      <h3 class="price"><strong>Price: £2.99</strong></h3><h3 class="condition"><strong>Condition: New</strong></h3>
+      <div id="32" class="collapse bookDescription">
+        <p> by RH Disney (Author, Illustrator) </p>
+        <p> Now new and old fans can relive the magic of Walt Disney's classic Snow White and the Seven Dwarfs as it is retold in a beautiful full-color Little Golden Book! </p>
+      </div>
+    </div>
+  </div>
+  <!--template for additional books
+  <div class="row">
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a>
+      
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a>
+      
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a>
+      
+    </div>
+    
+    <div class="col-md-3 well"><a class="thumbnail" href="" target="_blank"><img src="http://img-cdn.jg.jugem.jp/243/555602/20070628_30674.jpg" class="project-img"></a>
+      
+    </div>
+  </div>
+   -->
 </section>
   
     
 <!-- The footer -->
-<footer>
+<footer style="background: black; color:white;">
   <p>Copyright © Chris Jim 2017. All Rights Reserved</p>
   <p>
     <a href="mailto:chrisjim316@gmail.com"><i class="fa fa-envelope"></i></a>
@@ -87,4 +360,4 @@
   </p> 
 </footer>
  
-</div></body></html>
+</div></body>
