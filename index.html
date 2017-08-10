@@ -1,17 +1,11 @@
-<header>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <!-- import Athiti font from google fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
-   <!-- importing font awesome icons -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <!-- linking bootstrap to index.html-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
-   <!-- linking js and css files to index.html --> 
-   <link rel="stylesheet" type="text/css" href="css/style.css">
-   <script type="text/javascript" src="js/script.js"></script>
-</header>
+<head>
+  <!-- importing font awesome icons --> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- import Athiti font from google fonts -->  
+  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+  <!-- import jQuery --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
 
 <body>
 <section class="titlePage">
@@ -27,7 +21,7 @@
 <!-- books page -->  
 <section class="books mainBG">
   <!-- search through my library based on book title-->    
-  <form><input type="search" placeholder="Search for books"></form>
+  <form><input type="search" id="search" placeholder="Search for books" onkeyup="searchForBooks()"></form>
   <h2> Click book titles for details* </h2
     
   <div class="row">
