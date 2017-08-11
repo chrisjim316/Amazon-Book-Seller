@@ -1,6 +1,16 @@
 $(document).on('click.bs.collapse.data-api touchstart.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) { 
 });
 
+var io = new IntersectionObserver(
+    entries => {
+        console.log(entries);
+    },
+    {
+       
+    }
+);
+io.observe(element);
+
 function searchForBooks() {
   // Declare variables
   var filter, bookList, title;
