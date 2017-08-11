@@ -37,7 +37,7 @@ h2 {
 }
 
 .titlePage {
-  background:url("https://github.com/chrisjim316/Amazon-Seller-Website/blob/master/Images/Intro-desktop.jpg?raw=true");
+  background:url("https://github.com/chrisjim316/Amazon-Book-Seller/blob/master/Images/introBG.jpg?raw=true");
   background-size: cover;
   height: 600px;
 }
@@ -48,7 +48,7 @@ h2 {
 }
 
 .mainBG {
-  background:url("https://github.com/chrisjim316/AmazonSeller-LilJimbo/blob/master/Images/marbleBG-desktop.jpg?raw=true");
+  background:url("https://github.com/chrisjim316/Amazon-Book-Seller/blob/master/Images/marbleBG.jpg?raw=true");
   min-height: 100%;
 }
 
